@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Prints a string
  * Return: Always 0
