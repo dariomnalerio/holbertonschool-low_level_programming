@@ -2,7 +2,7 @@
 
 /**
  * rev_string - Prints a string in reverse
- * @s:  String to be printed
+ * @s:  String to be reversed
  *
 */
 
@@ -19,6 +19,6 @@ void rev_string(char *s)
 	{
 		aux = s[i];
 		s[i] = s[count - i - 1];
-		s[count - i -1] = aux;
+		s[count - i - 1] = aux;
 	}
 }
