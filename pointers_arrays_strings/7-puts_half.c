@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * puts_half - Pritns half of a string,
+ * followed by a new line
+ * @str: Poitns to string to be printed
 */
 
 void puts_half(char *str)
@@ -18,7 +18,7 @@ void puts_half(char *str)
 	else
 		n = (len - 1) / 2;
 
-	for (; n < len ; n++)
+	for (; n < len && n < 444 ; n++)
 		_putchar(str[n]);
 
 	_putchar('\n');
