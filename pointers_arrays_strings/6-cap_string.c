@@ -12,7 +12,7 @@ char *cap_string(char *str)
 	char check[13] = {9, 10, 32, 33, 34, 40, 41, 44, 46, 59, 63, 123, 125};
 
 	if (str[0] >= 'a' && str[0] <= 'z')
-		str[0] =  (str[0] - 32)
+		str[0] =  (str[0] - 32);
 
 	for (i = 0 ; str[i] != '\0' ; i++)
 	{
