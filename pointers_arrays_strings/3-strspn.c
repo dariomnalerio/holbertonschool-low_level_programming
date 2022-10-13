@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * _strspn - Gets the lenght of a prefix substring
+ * @s: String
+ * @accept: Bytes used to check length
+ * Return: count
 */
 
 unsigned int _strspn(char *s, char *accept)
@@ -27,7 +28,7 @@ unsigned int _strspn(char *s, char *accept)
 
 		if (h == 1)
 			break;
-	}	
+	}
 
 	return (count);
 }
