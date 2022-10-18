@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
+ * main - Multiplies two numbers
+ * @argc: -
+ * @argv: -
+ * Return: 0 = Success, 1 = Fail
 */
 
 int main(int argc, char *argv[])
