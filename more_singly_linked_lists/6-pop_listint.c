@@ -2,26 +2,21 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - A function that deletes the first node of a list.
- * @head: A pointer to a pointer to the first node of the list.
- * Return: The contents of the new head.
+ * pop_listint - Deletes a node
+ * Return: Data of the deleted node
+ * @head: Head of the list
  */
 
 int pop_listint(listint_t **head)
 {
-	listint_t *p = malloc(sizeof(listint_t));
-	int i;
+	int i = 0;
+	listint_t *temp = *head;
 
-	if (p == NULL)
+	if (*head)
 	{
-		free(p);
-		return (0);
+		i = (*head)->n;
+		*head = (*head)->next;
+		free(temp);
 	}
-	if (head == NULL)
-		return (0);
-	p = *head;
-	i = p->n;
-	*head = p->next;
-	p->next = NULL;
 	return (i);
 }
