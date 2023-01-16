@@ -5,7 +5,6 @@ In this section you can find tasks and projects of Fundations: 1st and 2nd trime
 - **Hello world**
 - **Variables, if, else and while**
 - **Functions and nested loops**
-- **Debugging**
 - **Pointers, arrays and strings**
 - **Recursion**
 - **Static libraries**
