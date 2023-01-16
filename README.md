@@ -18,7 +18,6 @@ In this section you can find tasks and projects of Fundations: 1st and 2nd trime
 - **Singly linked lists**
 - **Bit manipulation**
 - **File I/O**
-- **Doubly linked lists**
 - **Hash tables**
 - **Search algorithms**
 
